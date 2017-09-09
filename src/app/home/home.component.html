@@ -1,0 +1,8 @@
+<p>
+  {{user.Name}}
+</p>
+
+<input #name placeholder="Nome" type="text" />
+
+<button (click)="changeName(name.value)">Alterar nome</button>
+<button (click)="nextComponent()">Enviar para o About</button>
