@@ -10,7 +10,7 @@ export class DataService {
     currentMessage = this.messageSource.asObservable();
 
     constructor() {
-        this.user.Name = "Haisenberg";
+        this.user.Name = "Heisenberg";
     }
 
     changeMessage(user: User) {
